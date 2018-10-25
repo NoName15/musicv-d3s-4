@@ -30,7 +30,7 @@ client.on('ready', () => {
     client.user.setGame(`1help`,`www.twitch.tv/v5bz`);
   });
 
-const devs = ['382593940165099530','480407581085532180'];
+const devs = ['470320463021604864','480407581085532180'];
 
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
